@@ -2,8 +2,8 @@
 
 
 body {
- font-family: 'Outfit',
-  sans-serif;
+ background-color: hsl(212, 45%, 89%);
+ font-family: 'Outfit', sans-serif;
  font-size: 15px;
 }
 
@@ -11,7 +11,6 @@ body {
  display: flex;
  justify-content: center;
  align-items: center;
- background-color: hsl(220, 15%, 55%);
 }
 
 .box-container {
