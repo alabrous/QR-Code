@@ -8,10 +8,8 @@ body {
 }
 
 .flex-container {
- display: flex;
- justify-content: center;
- align-content: center;
- flex-direction: column;
+ display: block;
+ position: absolute;
  width: 1440px;
  background-color: hsl(220, 15%, 55%);
 }
