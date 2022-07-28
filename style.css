@@ -19,12 +19,13 @@ body {
  flex-direction: column;
  justify-content: center;
  align-items: center;
+ width: 600px;
  background-color: hsl(0, 0%, 100%);
 }
 
-.qr-code-container{
- height : 400px;
- width : 400px;
+.qr-code-container img{
+ max-height : 400px;
+ max-width : 400px;
 }
 
 .text-container h1 {
