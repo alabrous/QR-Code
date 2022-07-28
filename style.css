@@ -8,8 +8,9 @@ body {
 }
 
 .flex-container {
- display: block;
- position: absolute;
+ display: flex;
+ justify-content: center;
+ align-items: center;
  background-color: hsl(220, 15%, 55%);
 }
 
@@ -21,21 +22,16 @@ body {
  background-color: hsl(0, 0%, 100%);
 }
 
-.box-container img{
+.qr-code-container{
  height : 400px;
  width : 400px;
 }
 
-.box-container h1 {
-  display: flex;
-  justify-content: center;
-  align-content: flex-end;
+.text-container h1 {
   font-weight: 700;
  }
 
-.box-container p {
-  display: flex;
-  justify-content: center;
-  align-content: flex-end;
+.text-container p {
+  
   font-weight: 300;
  }
