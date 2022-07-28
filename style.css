@@ -11,15 +11,23 @@ body {
  display: flex;
  justify-content: center;
  align-content: center;
- flex-direction: column;
  width: 1440px;
  background-color: hsl(220, 15%, 55%);
 }
 
 .box-container {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-content: center;
  width : 800px;
  height : 800px;
  background-color: hsl(0, 0%, 100%);
+}
+
+.box-container img{
+ height : 400px;
+ width : 400px;
 }
 
 .box-container h1 {
