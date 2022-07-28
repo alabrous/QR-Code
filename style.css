@@ -20,8 +20,8 @@ body {
  flex-direction: column;
  align-items: center;
  align-content: space-between;
- height: fit-content;
- width: fit-content;
+ height: 500px;
+ width: 400px;
  background-color: hsl(0, 0%, 100%);
 }
 
@@ -32,17 +32,22 @@ body {
 .qr-code-container img{
   border-style: hidden;
   border-radius: 10px;
-  max-width: 100%;
-  max-height: 100%;
+  
 }
 
 
 .first-text-container {
   font-weight: 700;
   font-size: 15px;
+  max-width: 100%;
+  max-height: 100%;
+  margin: 10px;
  }
 
-.second-text-container p {
+.second-text-container  {
   font-weight: 300;
-  font-size: 15px
+  font-size: 15px;
+  max-width: 100%;
+  max-height: 100%;
+  margin: 10px;
  }
