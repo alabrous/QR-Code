@@ -28,10 +28,15 @@ body {
 }
 
 .text-container h1 {
+  position:absolute;
+  left: auto;
+  right: auto;
   font-weight: 700;
  }
 
 .text-container p {
-  
+  position: absolute;
+   left: auto;
+   right: auto;
   font-weight: 300;
  }
