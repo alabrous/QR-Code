@@ -9,16 +9,16 @@ body {
 
 .flex-container {
  display: flex;
+ justify-content: center;
+ align-content: center;
+ flex-direction: column;
  width: 1440px;
  background-color: hsl(220, 15%, 55%);
 }
 
 .box-container {
- display: flex;
- width : 500px;
+ width : 800px;
  height : 800px;
- justify-content: center;
- align-content: center;
  background-color: hsl(0, 0%, 100%);
 }
 
