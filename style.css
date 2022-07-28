@@ -25,7 +25,8 @@ body {
  background-color: hsl(0, 0%, 100%);
 }
 
-.qr-code-container img{
+.qr-code-container img
+{
   border-style: hidden;
   border-radius: 10px;
   max-width: 100%;
