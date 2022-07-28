@@ -25,16 +25,16 @@ body {
  background-color: hsl(0, 0%, 100%);
 }
 
-.qr-code-container img
+.box-container img
 {
   border-style: hidden;
   border-radius: 10px;
-  object-fit: contain;
+  ;
   margin: 10px;  
 }
 
 
-.first-text-container {
+#title {
   font-weight: 700;
   font-size: 15px;
   max-width: 100%;
@@ -42,7 +42,7 @@ body {
   margin: 10px;
  }
 
-.second-text-container  {
+#text  {
   font-weight: 300;
   font-size: 15px;
   max-width: 100%;
