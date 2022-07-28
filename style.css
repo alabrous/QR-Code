@@ -27,8 +27,8 @@ body {
 }
 
 .qr-code-container img{
-  width: fit-content;
-  height: fit-content;
+  width: auto;
+  height: auto;
   margin : 10px
 }
 
