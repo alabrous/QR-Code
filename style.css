@@ -25,9 +25,17 @@ body {
 .qr-code-container img{
  max-height : 400px;
  max-width : 400px;
+ margin : 30px
+}
+
+.text-container{
+ display: flex;
+ flex-direction: column;
+ align-content: center;
 }
 
 .text-container h1 {
+  
   font-weight: 700;
  }
 
